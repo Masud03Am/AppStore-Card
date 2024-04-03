@@ -1,0 +1,22 @@
+/*main.css - Главная страничка т.е грубо говоря background функционального компонента AppCard*/
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ffffff;
+}
+  
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Медиа-запросы для мобильных устройств */
+@media only screen and (max-width: 480px) {
+    .container {
+        max-width: 320px;
+    }
+}
+  
