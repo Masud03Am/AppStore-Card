@@ -120,7 +120,7 @@
 @media only screen and (max-device-width: 480px) {
   .app-card-container {
     max-width: 320px; 
-    max-height: 58px;
+    max-height: 60px;
   }
   .text {
     width: 57%;
